@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+}
+
+/* Centrar elementos */
+.centrado {
+    text-align: center;
+    justify-content: center;
+}
+
+.camara {
+    border-radius: 20px;
+    width: 30%;
+    height: 50%;
+}
+
+h2 {
+    background-image: linear-gradient(315deg, #00998f 0%, #7b529b 75%);
+    color: white;
+    border-radius: 20px;
+}
+
+/* Botones */
+.botones, .boton-eliminar, .boton-descargar {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #00998f 0%, #7b529b 75%);
+}
+
+.botones:hover, .boton-eliminar, .boton-descargar {
+    background-position: right center;
+}
+
+.botones:active, .boton-eliminar, .boton-descargar {
+    top: 2px;
+}
+
+/* Galeria */
+.galeria{
+    width: 80%;
+    display: flex;
+    gap: 2em;
+}
+
+.photo{
+    width: 20%;
+    height: 40%;
+}
